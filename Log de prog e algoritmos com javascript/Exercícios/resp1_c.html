@@ -1,0 +1,8 @@
+<script>
+    const preco = Number(prompt("Digite o preco do produto: "))
+    alert("As opcões de pagamento são à vista com 10% de desconto ou em 3 vezes")
+    const desconto = preco * 0.1
+    const aVista = preco - desconto
+    const parcelado = preco / 3
+    alert(`Preco total: R$${preco.toFixed(2)}\nÀ vista: R$${aVista.toFixed(2)}\nParcelado em 3x: R$${parcelado.toFixed(2)}`)
+</script>
